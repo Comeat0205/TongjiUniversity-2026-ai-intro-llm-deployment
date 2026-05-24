@@ -48,6 +48,5 @@ for i, prompt in enumerate(prompts, 1):
         inputs,
         streamer=streamer,
         max_new_tokens=300,
-        do_sample=False
     )
     print("\n" + "="*50 + "\n")
